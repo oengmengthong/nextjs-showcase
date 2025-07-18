@@ -189,7 +189,7 @@ export default function Home() {
               </div>
             </Link>
 
-                        <Link href="/data" className="group">
+            <Link href="/data" className="group">
               <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <div className="w-12 h-12 bg-cyan-100 dark:bg-cyan-900 rounded-lg flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -392,73 +392,6 @@ export default function Home() {
                     <span className="font-medium text-violet-600 dark:text-violet-400">Real-time Chat</span>
                     <p className="text-sm text-gray-600 dark:text-gray-300">Live messaging with bot integration</p>
                   </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Quick Start Section */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Quick Start
-            </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              Get started with the demo in minutes
-            </p>
-          </div>
-          
-          <div className="bg-white dark:bg-gray-900 rounded-xl p-8 shadow-lg">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-                  Installation
-                </h3>
-                <div className="bg-gray-900 dark:bg-gray-800 rounded-lg p-4 text-green-400 font-mono text-sm">
-                  <div className="mb-2"># Install dependencies</div>
-                  <div className="mb-2">npm install</div>
-                  <div className="mb-2"># Run development server</div>
-                  <div>npm run dev</div>
-                </div>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-                  Navigation
-                </h3>
-                <div className="space-y-2">
-                  <Link href="/components" className="block p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors">
-                    <span className="font-medium text-blue-600 dark:text-blue-400">Components Demo</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">View all UI components</p>
-                  </Link>
-                  <Link href="/animations" className="block p-3 bg-green-50 dark:bg-green-900/20 rounded-lg hover:bg-green-100 dark:hover:bg-green-900/30 transition-colors">
-                    <span className="font-medium text-green-600 dark:text-green-400">Animations Demo</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Interactive animations</p>
-                  </Link>
-                  <Link href="/features" className="block p-3 bg-purple-50 dark:bg-purple-900/20 rounded-lg hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-colors">
-                    <span className="font-medium text-purple-600 dark:text-purple-400">Features Demo</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Advanced features</p>
-                  </Link>
-                  <Link href="/forms" className="block p-3 bg-orange-50 dark:bg-orange-900/20 rounded-lg hover:bg-orange-100 dark:hover:bg-orange-900/30 transition-colors">
-                    <span className="font-medium text-orange-600 dark:text-orange-400">Forms Demo</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Form validation & handling</p>
-                  </Link>
-                  <Link href="/test" className="block p-3 bg-red-50 dark:bg-red-900/20 rounded-lg hover:bg-red-100 dark:hover:bg-red-900/30 transition-colors">
-                    <span className="font-medium text-red-600 dark:text-red-400">Test Page</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Interactive test components</p>
-                  </Link>
-                  <Link href="/charts" className="block p-3 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg hover:bg-indigo-100 dark:hover:bg-indigo-900/30 transition-colors">
-                    <span className="font-medium text-indigo-600 dark:text-indigo-400">Charts & Visualization</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Interactive charts and real-time data</p>
-                  </Link>
-                  <Link href="/ecommerce" className="block p-3 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg hover:bg-emerald-100 dark:hover:bg-emerald-900/30 transition-colors">
-                    <span className="font-medium text-emerald-600 dark:text-emerald-400">E-commerce Demo</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Shopping cart and product catalog</p>
-                  </Link>
-                  <Link href="/chat" className="block p-3 bg-violet-50 dark:bg-violet-900/20 rounded-lg hover:bg-violet-100 dark:hover:bg-violet-900/30 transition-colors">
-                    <span className="font-medium text-violet-600 dark:text-violet-400">Real-time Chat</span>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Live messaging with bot integration</p>
-                  </Link>
                   <Link href="/advanced" className="block p-3 bg-pink-50 dark:bg-pink-900/20 rounded-lg hover:bg-pink-100 dark:hover:bg-pink-900/30 transition-colors">
                     <span className="font-medium text-pink-600 dark:text-pink-400">Advanced Components</span>
                     <p className="text-sm text-gray-600 dark:text-gray-300">Media players, camera, file upload</p>
@@ -466,6 +399,10 @@ export default function Home() {
                   <Link href="/data" className="block p-3 bg-cyan-50 dark:bg-cyan-900/20 rounded-lg hover:bg-cyan-100 dark:hover:bg-cyan-900/30 transition-colors">
                     <span className="font-medium text-cyan-600 dark:text-cyan-400">Data Tables</span>
                     <p className="text-sm text-gray-600 dark:text-gray-300">Advanced tables with sorting, filtering</p>
+                  </Link>
+                  <Link href="/rich-forms" className="block p-3 bg-rose-50 dark:bg-rose-900/20 rounded-lg hover:bg-rose-100 dark:hover:bg-rose-900/30 transition-colors">
+                    <span className="font-medium text-rose-600 dark:text-rose-400">Rich Forms</span>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">Advanced forms with rich text & code editors</p>
                   </Link>
                 </div>
               </div>
